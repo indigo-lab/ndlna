@@ -1,0 +1,1 @@
+{"@context":{"sameAs":{"@id":"http://www.w3.org/2002/07/owl#sameAs","@type":"@id"},"knows":"http://xmlns.com/foaf/0.1/knows"},"@id":"http://id.ndl.go.jp/auth/entity/00842284","sameAs":"http://ja.dbpedia.org/resource/ヴォルフ・ハース","knows":[{"@id":"http://id.ndl.go.jp/auth/entity/00804074","sameAs":"http://ja.dbpedia.org/resource/テア・ドルン"}]}

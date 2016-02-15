@@ -1,0 +1,1 @@
+{"@context":{"sameAs":{"@id":"http://www.w3.org/2002/07/owl#sameAs","@type":"@id"},"knows":"http://xmlns.com/foaf/0.1/knows"},"@id":"http://id.ndl.go.jp/auth/entity/00551249","sameAs":"http://ja.dbpedia.org/resource/ラッセル・アバークロンビー","knows":[{"@id":"http://id.ndl.go.jp/auth/entity/01187312","sameAs":"http://ja.dbpedia.org/resource/ジョージ4世_(イギリス王)"}]}

@@ -1,0 +1,1 @@
+{"@context":{"sameAs":{"@id":"http://www.w3.org/2002/07/owl#sameAs","@type":"@id"},"knows":"http://xmlns.com/foaf/0.1/knows"},"@id":"http://id.ndl.go.jp/auth/entity/01105806","sameAs":"http://ja.dbpedia.org/resource/中村隆_(美術監督)","knows":[{"@id":"http://id.ndl.go.jp/auth/entity/00851140","sameAs":"http://ja.dbpedia.org/resource/高野和明"}]}

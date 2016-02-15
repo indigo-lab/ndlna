@@ -1,0 +1,1 @@
+{"@context":{"sameAs":{"@id":"http://www.w3.org/2002/07/owl#sameAs","@type":"@id"},"knows":"http://xmlns.com/foaf/0.1/knows"},"@id":"http://id.ndl.go.jp/auth/entity/00761177","sameAs":"http://ja.dbpedia.org/resource/藤井真信","knows":[{"@id":"http://id.ndl.go.jp/auth/entity/00077812","sameAs":"http://ja.dbpedia.org/resource/高橋是清"}]}

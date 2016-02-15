@@ -1,0 +1,1 @@
+{"@context":{"sameAs":{"@id":"http://www.w3.org/2002/07/owl#sameAs","@type":"@id"},"knows":"http://xmlns.com/foaf/0.1/knows"},"@id":"http://id.ndl.go.jp/auth/entity/00764219","sameAs":"http://ja.dbpedia.org/resource/三木理史","knows":[{"@id":"http://id.ndl.go.jp/auth/entity/00126131","sameAs":"http://ja.dbpedia.org/resource/老川慶喜"}]}

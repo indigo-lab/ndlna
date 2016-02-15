@@ -1,0 +1,124 @@
+body {
+  font-family: Meiryo;
+  margin: 0;
+  padding: 0;
+}
+
+header a, footer a {
+  color: #ffeeee;
+}
+
+header {
+  background: url(bg.gif) navy;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+header h1 {
+  font-size: 22pt;
+  line-heiht: 100%;
+  margin: 0;
+  padding: 16px 0 0 16px;
+  font-weight: bold;
+  font-family: serif;
+}
+
+header h2 {
+  font-size: 13pt;
+  line-heiht: 100%;
+  margin: 0;
+  padding: 0 0 16px 16px;
+  font-weight: normal;
+}
+
+footer {
+  background: url(bg.gif) navy;
+  color: #ffeeee;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+footer div {
+  padding: 10px;
+}
+
+article {
+  padding: 40px;
+}
+
+article h1 {
+  font-size: 180%;
+  color: #32467a;
+  margin: 0.5em 0;
+  padding: 0;
+}
+
+article h2 {
+  font-size: 160%;
+  margin: 1em 0 0.5em 0;
+  padding: 0;
+  color: #32467a;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  background: #f8f8fb;
+  width: 12em;
+  text-align: left;
+  padding: 5px;
+  border-top: 1px solid #ddd;
+  font-weight: bolder;
+}
+
+td {
+  text-align: left;
+  padding: 5px;
+  border-top: 1px solid #ddd;
+}
+
+address {
+  text-align: center;
+  font-size: 9pt;
+  font-style: normal;
+}
+
+td a {
+  margin-right: 0.5em;
+  white-space: nowrap;
+}
+
+td p {
+  margin: 0;
+  padding: 0;
+}
+
+th small {
+  display: block;
+  color: gray;
+  font-weight: normal;
+  font-size: 80%;
+}
+
+div.notice {
+  font-size: small;
+  background: #f8f8fb;
+  border-left: 0.5em solid orange;
+  padding: 0.5em;
+  margin: 0 0 2em 0;
+}
+
+div[data-predicate="http://ndl.go.jp/dcndl/terms/transcription"] span {
+  display: block;
+  font-size: small;
+  margin-left: 1em;
+}
+
+div[data-predicate="http://ndl.go.jp/dcndl/terms/transcription"] span:before
+  {
+  content: '■';
+}

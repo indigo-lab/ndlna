@@ -1,0 +1,1 @@
+{"@context":{"sameAs":{"@id":"http://www.w3.org/2002/07/owl#sameAs","@type":"@id"},"knows":"http://xmlns.com/foaf/0.1/knows"},"@id":"http://id.ndl.go.jp/auth/entity/00665754","sameAs":"http://ja.dbpedia.org/resource/田邊誠_(法学者)","knows":[{"@id":"http://id.ndl.go.jp/auth/entity/00082566","sameAs":"http://ja.dbpedia.org/resource/谷口安平"}]}

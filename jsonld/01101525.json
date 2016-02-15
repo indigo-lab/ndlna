@@ -1,0 +1,1 @@
+{"@context":{"sameAs":{"@id":"http://www.w3.org/2002/07/owl#sameAs","@type":"@id"},"knows":"http://xmlns.com/foaf/0.1/knows"},"@id":"http://id.ndl.go.jp/auth/entity/01101525","sameAs":"http://ja.dbpedia.org/resource/健速","knows":[{"@id":"http://id.ndl.go.jp/auth/entity/001094546","sameAs":"http://ja.dbpedia.org/resource/浜弓場双"}]}

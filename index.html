@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Web NDL Authorities（国立国会図書館典拠データ検索・提供サービス）</title>
+<link rel="stylesheet" href="style.css" />
+<script src="jquery-2.1.4.min.js"></script>
+<script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Linked Web NDL Authorities</h1>
+    <h2>国立国会図書館典拠データ検索・提供サービス</h2>
+  </header>
+  <article>
+
+    <h1 id="headline" data-predicate="http://www.w3.org/2000/01/rdf-schema#label"></h1>
+
+    <p id="comment">Waiting for DBpedia Japanese SPARQL Endpoint</p>
+
+    <table id="main">
+      <tr id="id">
+        <th>ID</th>
+        <td></td>
+      </tr>
+      <tr>
+        <th>標目<small>(xl:prefLabel)</small></th>
+        <td><p data-predicate="http://www.w3.org/2008/05/skos-xl#literalForm"></p>
+          <div data-predicate="http://ndl.go.jp/dcndl/terms/transcription"></div></td>
+      </tr>
+      <tr>
+        <th>生年<small>(rda:dateOfBirth)</small></th>
+        <td data-predicate="http://RDVocab.info/ElementsGr2/dateOfBirth"></td>
+      </tr>
+      <tr>
+        <th>没年<small>(rda:dateOfDeath)</small></th>
+        <td data-predicate="http://RDVocab.info/ElementsGr2/dateOfDeath"></td>
+      </tr>
+      <tr>
+        <th>関連リンク/出典<small>(skos:exactMatch)</small></th>
+        <td data-predicate="http://www.w3.org/2004/02/skos/core#exactMatch"></td>
+      </tr>
+      <tr>
+        <th>出典<small>(dct:source)</small></th>
+        <td data-predicate="http://purl.org/dc/terms/source"></td>
+      </tr>
+      <tr>
+        <th>作成日<small>(dct:created)</small></th>
+        <td data-predicate="http://purl.org/dc/terms/created"></td>
+      </tr>
+      <tr id="modified">
+        <th>最終更新日<small>(dct:modified)</small></th>
+        <td data-predicate="http://purl.org/dc/terms/modified"></td>
+      </tr>
+      <tr id="ndl">
+        <th>本家サイトへのリンク</th>
+        <td></td>
+      </tr>
+      <tr id="sameas">
+        <th>外部サイトへのリンク<small>(owl:sameAs)</small></th>
+        <td></td>
+      </tr>
+      <tr id="knows">
+        <th>知人<small>(foaf:knows)</small></th>
+        <td></td>
+      </tr>
+    </table>
+
+
+
+    <h2>詳細情報</h2>
+    <table>
+      <tr>
+        <th>他形式のデータ</th>
+        <td><a rel="alternate" type="application/rdf+xml" href="00856218.rdf" id="rdf">RDF/XML形式</a>, <a
+          rel="alternate" type="text/turtle" href="00856218.ttl" id="ttl">RDF/Turtle形式</a>, <a rel="alternate"
+          type="application/json" href="00856218.json" id="json">JSON形式</a></td>
+      </tr>
+    </table>
+
+    <h2>注意事項</h2>
+    <div class="notice">
+      <span>このページは以下のデータおよびリソースを使用しています</span>
+      <ul>
+        <li><a href="http://id.ndl.go.jp/information/about/" targe="_blank">Web NDL Authorities</a> の外部提供インタフェース</li>
+        <li><a href="http://ja.dbpedia.org/" target="_blank">DBpedia Japanese</a> の SPARQL Endpoint</li>
+      </ul>
+    </div>
+
+  </article>
+
+  <footer>
+    <div>
+      <span>Linked Web NDL Authorities</span> | <a href="https://github.com/indigo-lab">indigo-lab@github</a>
+    </div>
+  </footer>
+  <address>
+    このページは <a href="http://lab.ndl.go.jp/cms/?q=hack2015">国立国会図書館のデータを使い尽くそうハッカソン</a> のために作成されました
+  </address>
+</body>
+</html>

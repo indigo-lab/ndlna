@@ -1,0 +1,1 @@
+{"@context":{"sameAs":{"@id":"http://www.w3.org/2002/07/owl#sameAs","@type":"@id"},"knows":"http://xmlns.com/foaf/0.1/knows"},"@id":"http://id.ndl.go.jp/auth/entity/00317022","sameAs":"http://ja.dbpedia.org/resource/森正人_(漫画家)","knows":[{"@id":"http://id.ndl.go.jp/auth/entity/00029654","sameAs":"http://ja.dbpedia.org/resource/川崎のぼる"}]}
