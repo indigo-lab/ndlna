@@ -15,6 +15,14 @@ header {
   padding: 0;
 }
 
+#notice {
+  font-size: 9pt;
+  background: orange;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
 header h1 {
   font-size: 22pt;
   line-heiht: 100%;
@@ -50,7 +58,7 @@ article {
 
 article h1 {
   font-size: 180%;
-  color: #32467a;
+  color: #7a4632;
   margin: 0.5em 0;
   padding: 0;
 }
@@ -67,7 +75,7 @@ table {
 }
 
 th {
-  background: #f8f8fb;
+  background: #fbf8f8;
   width: 12em;
   text-align: left;
   padding: 5px;
@@ -106,7 +114,7 @@ th small {
 
 div.notice {
   font-size: small;
-  background: #f8f8fb;
+  background: #fbf8f8;
   border-left: 0.5em solid orange;
   padding: 0.5em;
   margin: 0 0 2em 0;
@@ -114,11 +122,39 @@ div.notice {
 
 div[data-predicate="http://ndl.go.jp/dcndl/terms/transcription"] span {
   display: block;
-  font-size: small;
+  x font-size: small;
   margin-left: 1em;
 }
 
 div[data-predicate="http://ndl.go.jp/dcndl/terms/transcription"] span:before
   {
   content: '■';
+}
+
+dl {
+  margin-left: 1em;
+}
+
+nav {
+  position: absolute;
+  top: 25px;
+  right: 5px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 9pt;
+}
+
+#search {
+  width: 8em;
+}
+
+#result {
+  text-align: left;
+  color: white;
+  margin: 0px;
+}
+
+#result a {
+  color: orange;
 }

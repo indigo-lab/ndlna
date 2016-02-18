@@ -9,6 +9,7 @@
 </head>
 <body>
   <header>
+    <div id="notice">このページは「国立国会図書館のデータを使い尽くそうハッカソン」のために作られた、実験を目的としたものです</div>
     <h1>Linked Web NDL Authorities</h1>
     <h2>国立国会図書館典拠データ検索・提供サービス</h2>
   </header>
@@ -87,6 +88,32 @@
       </ul>
     </div>
 
+    <h2>ライセンス</h2>
+    <div class="notice">
+      <span>このページは複数のデータ、リソースを集約することで構成されています。個々のデータ、リソースのライセンスは以下の通りです。</span>
+      <dl>
+        <dt>
+          <a href="http://id.ndl.go.jp/auth/ndla/">Web NDL Authorities</a>
+        </dt>
+        <dd>
+          <a href="http://id.ndl.go.jp/information/use/">Web NDL Authorities 利用条件</a> が適用されます
+        </dd>
+        <dt>
+          <a href="http://ja.dbpedia.org/">DBpedia Japanese</a>
+        </dt>
+        <dd>
+          トップページで記載されている <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons 表示 - 継承 3.0 非移植
+            License</a> が適用されます
+        </dd>
+        <dt>
+          <a href="https://github.com/indigo-lab/ndlna">sameAs リンクセット/ knows リンクセット</a>
+        </dt>
+        <dd>
+          <a href="https://github.com/indigo-lab/ndlna/blob/master/LICENSE">レポジトリのライセンス</a> に従い、CC-BY-SA 4.0 が適用されます
+        </dd>
+      </dl>
+    </div>
+
   </article>
 
   <footer>
@@ -97,5 +124,11 @@
   <address>
     このページは <a href="http://lab.ndl.go.jp/cms/?q=hack2015">国立国会図書館のデータを使い尽くそうハッカソン</a> のために作成されました
   </address>
+  <nav>
+    <form>
+      <input type="text" id="search" placeholder="夏目漱石" /> <input type="submit" value="検索" />
+      <ul id="result"></ul>
+    </form>
+  </nav>
 </body>
 </html>
